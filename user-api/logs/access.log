@@ -1,0 +1,2 @@
+{"@timestamp":"2022-12-10T10:19:58.743+08:00","caller":"handler/loghandler.go:197","content":"[HTTP] 400 - GET /user/info?id=475 - 127.0.0.1:62528 - PostmanRuntime/7.29.2","duration":"0.0ms","level":"info","span":"b316a0df93bfb18b","trace":"c4499704fd4accdc1e9c7cb5833eebb1"}
+{"@timestamp":"2022-12-10T10:20:54.619+08:00","caller":"handler/loghandler.go:197","content":"[HTTP] 400 - GET /user/info?id=475 - 127.0.0.1:64587 - PostmanRuntime/7.29.2","duration":"0.5ms","level":"info","span":"3608fec676cf537a","trace":"888d8e89d5e63bc030a71ec28b7a181c"}

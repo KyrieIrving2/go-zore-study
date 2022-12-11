@@ -1,0 +1,19 @@
+Name: user-api-api
+Host: 0.0.0.0
+Port: 8888
+
+DB:
+  DataSource: law_case_platform:N8fELMmZ@tcp(9.134.39.99:18004)/law_case_platform?charset=utf8mb4&parseTime=True&loc=Local
+
+UserRpcConfig:
+  Etcd:
+    Hosts:
+      - 0.0.0.0:2379
+    Key: user.rpc
+
+Log:
+  ServiceName: user-api-api
+  Mode: console
+  Path: logs
+  Level: info
+  Encoding: plain

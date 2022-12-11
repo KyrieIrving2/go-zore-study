@@ -1,0 +1,15 @@
+type GetUserReq {
+	Id int `form:"id"`
+}
+
+type GetUserRsp {
+	Name string `json:"name"`
+}
+
+@server(
+	middleware:TestMiddleWare
+)
+service user-api {
+	@handler GetUser
+	get /user/info(GetUserReq) returns (GetUserRsp)
+}
